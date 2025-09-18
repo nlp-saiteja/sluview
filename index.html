@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLUview</title>
+  <link rel="stylesheet" href="slu.css">
+</head>
+<body>
+  <header>
+    <h1>SLUview</h1>
+    <nav>
+      <a href="#">Filters</a>
+      <a href="#">Featured</a>
+      <a href="#">Reviews</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- df-->
+    <section class="column filters">
+      <h2>Filter</h2>
+      <label>Category</label>
+      <select>
+        <option>All</option>
+        <option>Coffee & Tea</option>
+        <option>Restaurants</option>
+        <option>Hotels</option>
+      </select>
+
+      <label>Price</label>
+      <select>
+        <option>$</option>
+        <option>$$</option>
+        <option>$$$</option>
+      </select>
+
+      <label>Min Rating</label>
+      <input type="number" value="4" min="1" max="5">
+    </section>
+
+    <!-- Column B: Featured Businesses -->
+    <section class="column featured">
+      <h2>Featured Businesses</h2>
+      <div class="card">
+        <h3>Coffee House A</h3>
+        <p><strong>Coffee & Tea · St. Louis, MO · $$ · ★ 4.5</strong></p>
+        <p>Neighborhood spot with pour-over and pastries.</p>
+      </div>
+      <div class="card">
+        <h3>City Bistro</h3>
+        <p><strong>Restaurants · St. Louis, MO · $$$ · ★ 4.2</strong></p>
+        <p>Seasonal menu with local ingredients and patio seating.</p>
+      </div>
+      <div class="card">
+        <h3>Riverfront Hotel</h3>
+        <p><strong>Hotels · St. Louis, MO · $$$ · ★ 4.1</strong></p>
+        <p>Modern rooms, Mississippi views, and free breakfast.</p>
+      </div>
+    </section>
+
+    <!-- Column C: Latest Reviews -->
+    <section id="reviews" class="column reviews" aria-labelledby="reviews-title">
+      <h2 id="reviews-title">Latest Reviews</h2>
+      <div id="reviews-list" class="card"></div>
+      <noscript><p>Please enable JavaScript to see reviews loaded from the data file.</p></noscript>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SLUview</p>
+  </footer>
+  <script>
+    async function loadReviews() {
+      try {
+        // Step 1: Fetch data.json
+        const res = await fetch('data.json');
+        if (!res.ok) throw new Error("Couldn't load data.json");
+  
+        // Step 2: Convert JSON text → JavaScript object
+        const data = await res.json();
+  
+        // Step 3: Find the container
+        const list = document.getElementById('reviews-list');
+        list.innerHTML = ''; // clear it first
+  
+        // Step 4: Loop through reviews and create cards
+        (data.reviews || []).forEach(rv => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <p><strong>${rv.author}</strong> · ★ ${rv.rating} · ${rv.date}</p>
+            <p>${rv.text}</p>
+          `;
+          list.appendChild(card);
+        });
+  
+      } catch (err) {
+        console.error(err);
+        document.getElementById('reviews-list').innerHTML =
+          '<p>Error loading reviews. Make sure data.json is in the same folder.</p>';
+      }
+    }
+  
+    // Run when page loads
+    loadReviews();
+  </script>
+  
+</body>
+</html>

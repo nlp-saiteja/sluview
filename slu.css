@@ -1,0 +1,126 @@
+/* Stylish font */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;500&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #DDD0C8, #f0e7e2);
+  color: #333;
+}
+
+/* Header with slight design */
+header {
+  text-align: center;
+  padding: 0.8rem 1rem;   /* compact header */
+  background: linear-gradient(135deg, #323232, #4a4a4a);
+  color: white;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+header h1 {
+  
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  font-size: 2.3rem;
+}
+nav a {
+  margin: 0 0.8rem;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container grid */
+.container {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Columns */
+.column {
+  padding: 1rem;
+  background: #f7f4f2;  /* soft contrast with body */
+  border-radius: 16px;
+}
+
+/* Filters - smaller box */
+.filters {
+  font-size: 0.9rem;
+  box-shadow: 0 6px 20px rgba(55, 80, 114, 0.3);
+  align-self: start;
+}
+
+/* Neumorphism style inputs */
+select, input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0 1rem;
+  border-radius: 12px;
+  border: none;
+  background: #ffffff;
+  box-shadow: inset 2px 2px 6px rgba(0,0,0,0.1),
+              inset -2px -2px 6px rgba(255,255,255,0.7);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  outline: none;
+  display: block;
+  box-sizing: border-box; /* keeps sizing consistent */
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: inner-spin-button;
+  opacity: 1;
+  margin: 0;
+}
+
+/* Cards */
+.card {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(55, 80, 114, 0.25);
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(55, 80, 114, 0.5);
+}
+
+/* Shadows per section */
+.featured, .reviews {
+  box-shadow: 0 8px 25px rgba(55, 80, 114, 0.3);
+}
+footer {
+  text-align: center;
+  padding: 0.6rem;
+  background: linear-gradient(135deg, #323232, #4a4a4a);
+  color: white;
+  font-size: 0.8rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 1.5rem;
+  box-shadow: 0 -3px 8px rgba(0,0,0,0.3);
+}
+/* Responsive design */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
