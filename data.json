@@ -1,10 +1,130 @@
 {
-    "reviews": [
-      {"author": "Jane Doe", "rating": 4.5, "date": "2025-09-01", "text": "Great latte, quick service!"},
-      {"author": "Sam R.", "rating": 4.2, "date": "2025-08-29", "text": "Seasonal menu was on point."},
-      {"author": "Priya K.", "rating": 4.0, "date": "2025-08-25", "text": "Nice view; breakfast could be hotter."},
-      {"author": "Alex Chen", "rating": 4.8, "date": "2025-08-21", "text": "Rich cappuccino, flaky croissant."},
-      {"author": "Maria G.", "rating": 3.9, "date": "2025-08-18", "text": "Lovely patio, a bit pricey."}
-    ]
-  }
-  
+  "reviews": [
+    {
+      "author": "Jessica T.",
+      "rating": 5.0,
+      "date": "May 18, 2025",
+      "text": "Hidden gem! Great service and food at an affordable price. All the staff work together and treat everyone with kindness which makes the experience even better. I've tried many Indian spots in Malden, but nothing is comparable to Athidi in terms of offerings, flavor, and portions. Explored a bunch of new dishes like tandoori shrimp and paneer roast biryani which were fantastic! Their spicy level was nothing crazy which is good because as an Asian person sometimes at other Indian spots, their spicy level is toooo much for me. Everything was a hit at the table, and I would definitely recommend! I will be coming back for sure."
+    },
+    {
+      "author": "MJ H.",
+      "rating": 4.0,
+      "date": "Jun 1, 2025",
+      "text": "This was a place we tried on a whim... I can't even remember how we found it. I'm not in Saugus that often (we live in Somerville), but it's always fun to check out new places and try new things. Athidi's menu had a lot of options that were different than your average, which is a huge plus for me. (As I just said... I love trying new things)! The portion sizes were large and the food had wonderful flavors. I got the curry leaf chicken, and we got an appetizer that were little fried balls, and I'm not sure what was in them or what the name of the dish was (so helpful, I know). My husband got a biryani dish. All of the dishes were excellent and I'd eat them again. I think we will come back to try a few more things from the very extensive menu."
+    },
+    {
+      "author": "Tam P.",
+      "rating": 5.0,
+      "date": "Feb 8, 2025",
+      "text": "I am so happy that this Indian restaurant opened near my place. Finally went there for The Weeknd grand buffet and it is entirely worth it. The owner is super nice and very tentative. Speaking of the food, this buffet has so much more varieties that you can find at any Indian restaurant and everything tastes amazing. Samba, chicken 65 and biryani are my favorites. They even have a pani puri station which is awesome. I wish they add a falooda station later, bet that would be a hit :)) Strongly recommend coming here. $23.99 per person for lunch is not too shabby. Come and supper your local business."
+    },
+    {
+      "author": "Shail C.",
+      "rating": 5.0,
+      "date": "Mar 22, 2025",
+      "text": "Had the best dosa experience after a long time. My rava dosa was crisp, sambhar was not sweet - it was perfect. The chutneys - both the tomato and coconut were spiced perfectly. I also tried two deserts - Black Forest cake and fruit custard. It was a great food, cooked to perfection, was served hot and fresh. Their service is 5 stars. Ample parking downstairs. I cannot wait to be back again soon. If you don't believe me check out the After photos. Drop by this place and give them a chance to show their hospitality."
+    },
+    {
+      "author": "Jay W.",
+      "rating": 1.0,
+      "date": "Aug 1, 2025",
+      "text": "The entrees are half-sized at best, appetizer sized. I came with my son, and each of us ordered an entree and naan. We left hungry. It felt like a scam. The server was slow, inattentive, and poorly informed. The restaurant itself was on the second floor and decorated unprofessionally. The plates are plastic. We weren't offered a knives. The food was OK, but portions are paltry. The food itself was just OK. I would stay away."
+    },
+    {
+      "author": "James L.",
+      "rating": 4.0,
+      "date": "Jan 17, 2025",
+      "text": "We took a chance and went to Athidi in Saugus.. We did not expect much, but were very surprised in a good way! I'll tell you, this place is my new favorite Indian restaurant! It's very basic and unassuming.. The location on Rt. 1 not the greatest.. But what they don't have in location they more than make up for in quality of food. The food was amazing - so flavorful and authentic. I especially loved the butter chicken, goat vindaloo and garlic naan. The service was great too, our waiter was the owner and super friendly and helpful. Definitely recommend giving this place a try!"
+    },
+    {
+      "author": "Jason S.",
+      "rating": 5.0,
+      "date": "Apr 6, 2025",
+      "text": "We had a wonderful time. Family and friends gathered for a birthday celebration. Everyone loved it"
+    },
+    {
+      "author": "Krish C.",
+      "rating": 4.0,
+      "date": "Apr 23, 2025",
+      "text": "Great food,  bad service. We were there for a Sunday lunch buffet.  Food selection is good and taste great.   I am ethnic Asian and unlike most other Indian buffets in greater Boston,  the spice level here was perfect ( in other places they make it too bland).  Except for Biryani, everything else was very flavorful. However, the service need to improve a lot. 1)Normally, in restaurants they serve water by default and ask about drinks as soon as you are seated. Here, we went picked up our food came back, still no water.  We had to call someone to get water. 2) When we were almost done, they came asking about Dosa ( a type of Indian food).  Naturally , we did not have any appetite by then.  I do not think they were trying to be cringe on dosa and deliberately did not offer in the beginning.   It is just that the service guys were all over  but our table. Would probably visit again,  but I definitely expect them to improve their service."
+    },
+    {
+      "author": "Arianna L.",
+      "rating": 5.0,
+      "date": "Jun 22, 2025",
+      "text": "Great food. My mom is in a wheelchair so they helped us get in and get out of the restaurant. Very nice staff."
+    },
+    {
+      "author": "Adam B.",
+      "rating": 5.0,
+      "date": "Jul 19, 2025",
+      "text": "This place is a really good place to eat at. The owner is always there and everyone is super friendly and attentive. Everything is new on the inside as they just remodeled the whole restaurant it gives modern vibes. The food is tasty and they have a all you can eat Buffett on the weekends definitely should try this place out"
+    },
+    {
+      "author": "Wayne S.",
+      "rating": 5.0,
+      "date": "Mar 10, 2025",
+      "text": "What an amazing restaurant. The food is fresh and delicious. The service was wonderful and very kind to each customer. I went to the buffet over the weekend many items to choose from and each thing I had was great. Highly recommended the prices are fair."
+    },
+    {
+      "author": "K R.",
+      "rating": 5.0,
+      "date": "Oct 20, 2024",
+      "text": "New restaurant. The service is great, and food is excellent. I had the onion pakora, and ghee roast masala dosa. Loved the food and am looking forward to coming back and trying more!"
+    },
+    {
+      "author": "P H.",
+      "rating": 5.0,
+      "date": "Dec 27, 2024",
+      "text": "Just got delivery from here and it was great! Fair warning, there was a little heat to everything so if you don't like any you'll need to specify when you order. However, it didn't overpower any of the flavors which is one of my biggest complaints about spicy food. Everything we tried was wonderful. The paneer fried rice was really neat and something new for me. Chicken was tender, veggies were good, sauces didn't taste overly creamy or buttery, but just right. It wasn't cheap, but probably average pricing for the area. I did not try any Chinese items besides the rice, but I'm curious to try them next. I definitely will return. Please keep up the quality!"
+    },
+    {
+      "author": "Chris D.",
+      "rating": 5.0,
+      "date": "Feb 8, 2025",
+      "text": "Food was excellent, owner was very helpful and attentive.   Nothing fancy in terms of atmosphere, but will definitely return for the food."
+    },
+    {
+      "author": "Rey H.",
+      "rating": 5.0,
+      "date": "Dec 7, 2024",
+      "text": "First time trying this place for our anniversary. The ambiance was probably not quite right for anniversary dinner but we kind of didn't care about that after getting the food. The dosas were huge and delicious. Chicken vindaloo was also great and spicy the way we like it. Will be back to try other things."
+    },
+    {
+      "author": "Robert W.",
+      "rating": 5.0,
+      "date": "Feb 13, 2025",
+      "text": "Excellent food and service.   We really enjoyed the  Drums of Heaven appetizer and Chicken Shakensha"
+    },
+    {
+      "author": "Srini S.",
+      "rating": 5.0,
+      "date": "Oct 3, 2024",
+      "text": "Athidi continues to impress. The food has consistently been delicious. We've tried a variety of their dishes--from biryani to both vegetarian and non-vegetarian options, and even their Indo-Chinese offerings--all of which were excellent. The restaurant has a warm and welcoming ambience, and the staff is exceptionally friendly. They made sure the food was prepared to our taste and even asked if we wanted less spicy options for the kids, which they happily accommodated. It's rare to find such thoughtful and attentive people. The owner even came to our table personally to check if everything was to our liking, making the experience even more special. Definitely worth a visit!"
+    },
+    {
+      "author": "M L.",
+      "rating": 5.0,
+      "date": "Oct 5, 2024",
+      "text": "Dosas are best I have had in years.  The special Biryani is amazing as well.  Will be back soon."
+    },
+    {
+      "author": "Daniel D.",
+      "rating": 5.0,
+      "date": "Oct 30, 2024",
+      "text": "We had a meal there, the people there were so friendly and so nice, helpful, accommodating and the atmosphere was extremely comfortable. They had a huge couch set up for people that could lounge (I don't think it was an eating area) there was also one huge TV in the dining area that was playing a Bollywood movie. The food was delicious and they were very accommodating when I asked them to make it not overly spicy. I'll tell you the truth now that I'm talking about it. I may just go back today for another meal."
+    },
+    {
+      "author": "gillian a.",
+      "rating": 5.0,
+      "date": "Sep 27, 2024",
+      "text": "I just returned from dinner at Athidi.  I was eager to try this new Indian restaurant as I always hope for one to open near my home, and Athidi is close.  Athidi is wonderful!  I was so pleasantly surprised at the cleanliness, the freshness of the space, the graciousness of the wait staff and the owners. But the food is king and it didn't disappoint!  I am a vegetarian and ordered a vegetable korma (the menu is written with Indian names and I can't remember the name of my dish, but the waiter will explain everything until they redo their menus to include descriptions; I think it was Navaratna Korma). The korma included several vegetables and was served with rice; the sauce was delicate and perfectly seasoned.  I asked for no heat and got that; the sweet delicacy of the spices in the dish made it a perfect comfort food for me. I will order it again and again. My companion got a Shrimp Biryani, also delicious. That dish was accompanied by two sauces, one spicy and one a yogurt sauce with red onion.  Both were wonderful.  I even enjoyed the spicy one!  The yogurt sauce was so delicious that I drank what remained when my friend finished her meal!  For a starter we ordered the sweet corn soup, a delicious way to start the meal.  Again, the soup was perfectly seasoned; nothing was over- or underdone.  Corn accompanied by baby pearl onions, I believe, enhanced the soothing, smooth, slightly thick broth.  The rice pudding dessert we shared, Rice Kheer, was the final perfect piece of a marvelous meal.  I hate to repeat myself, but the delicacy of the spice in the pudding was so pleasing.  It is a small serving, but just enough.  Again, I will order it over and over. I am so glad Athidi has opened its doors!  I wish the best for the restaurant and hope to enjoy many more meals there.  it has been quite a while since I wrote my last review on Yelp, but I thought Athidi was worth coming out of retirement for."
+    },
+    {
+      "author": "Shova G.",
+      "rating": 1.0,
+      "date": "Feb 18, 2025",
+      "text": "I was so happy to see an Indian restaurant near my house just open. first time going there and have a really worst experience. food are okay , for me is super salty , I ordered mix veg pakoda, okra fry ( might me a different name in menu) and other kinds of food  too,  every thing is too saltly. the worst was we find a hair in our first bite in mix veg pakoda. I took aside the first hair and try to enjoy the food but we found it again in the same plate  very long and attached with the pakoda and fried. we return that back and again we eat the other food that we already place a order forgetting everything, thinking some time it might happen mistake. and at the end whatever was left over  we ask a box for take home and again we found a human hair in tthe chicken fry rice, even in the other food that we order.   Do you know what is the interesting thing ? when we show a couple hair in a food to a server he was kind a trying to ignore us . And said no one find any things since they opened and he act like all the hair we found in the food was pretty much we just mixed in our food. I feel so embarrassed to show them the human hair in food because they gave me a looks , that I put the hair in the food. Never going back again. Hoping they'll make sure everything is clean and hygiene from now. feel bad for them."
+    }
+  ]
+}
